@@ -1,8 +1,11 @@
-## sbt project compiled with Scala 3
+# AOC2024
 
-### Usage
+This year, after 10 years of functional programming, I will finally give Scala(3) a realy try...
 
-This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
+## Run it
 
-For more information on the sbt-dotty plugin, see the
-[scala3-example-project](https://github.com/scala/scala3-example-project/blob/main/README.md).
+```
+nix develop
+sbt run
+# pick a day to run
+```
